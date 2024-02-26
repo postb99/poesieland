@@ -1,3 +1,5 @@
+import Chart from '/js/chartjs/chart.js';
+
 const addChart = (chartId, chartType, chartLabels, datas, options) => {
 
     var datasets = [

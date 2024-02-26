@@ -1,4 +1,4 @@
 {{- $page := .page }}
 {{- with $page }}
-    <script src="{{"js/chartjs/chart.umd.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+
 {{- end }}
